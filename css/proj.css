@@ -1,0 +1,27 @@
+/*
+This is css of practice site for html5, css3 and bootstrap
+*/
+
+.row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#header{
+	background-color: grey;
+}
+.nav-bar{
+	padding-top: 20px;
+	text-align: right;
+	vertical-align: center;
+}
+.nav-bar a{
+	padding:10px;
+	color:white;
+}
+.row #proj-title{
+	text-align: center;
+}
+.proj h3{
+	text-align: center;
+}
