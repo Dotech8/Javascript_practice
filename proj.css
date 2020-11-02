@@ -1,16 +1,14 @@
 /*
 This is css of practice site for html5, css3 and bootstrap
 */
-
+.container{
+	align-content: space-around;
+}
 .row{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-#header{
-	background-color: grey;
-	
-}
 #section-one h2 ol{
 	text-align: center;
 }
@@ -31,6 +29,13 @@ This is css of practice site for html5, css3 and bootstrap
 .title{
 	text-align: center;
 }
+.block{
+	display: inline-flex; 
+	text-align:center;
+}
+.col-lg-12{
+	display: inline-flex;
+}
 @media only screen and (max-width: 768px){
 	
 	[class*="col-"] {
@@ -42,10 +47,4 @@ This is css of practice site for html5, css3 and bootstrap
 		text-align: center;
 	}
 }
-@media only screen and (max-width: 768px)
-{
-	.{
-		max-width: 200px;
-		max-height: auto;
-	}
-}
+
